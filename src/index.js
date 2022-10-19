@@ -1,10 +1,12 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
-import "./index.css";
+
+import MySection from "./MySection";
+import MyButton from "./MyButton";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-	<p>
-		Hello, <strong>JSX</strong>
-	</p>
+	<MySection>
+		<MyButton>My Button Text</MyButton>
+	</MySection>
 );
