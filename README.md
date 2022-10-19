@@ -12,4 +12,4 @@ Exercise 1.3 ở branch exercise1-3
 Exercise 2.1 ở branch exercise2-1
 Exercise 2.2 ở branch exercise2-2
 Exercise 2.3 ở branch exercise2-3
-Exercise 3 ở branch exercise3
+Exercise 3 ở branch exercise03
