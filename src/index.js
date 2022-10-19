@@ -1,10 +1,21 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
-import "./index.css";
+import MyButton from "./MyButton";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-	<p>
-		Hello, <strong>JSX</strong>
-	</p>
-);
+
+function render({ second }) {
+	root.render(
+		<main>
+			<MyButton />
+			<MyButton text={second.text} disable={second.disable} />
+		</main>
+	);
+}
+
+render({
+	second: {
+		text: "Second Button",
+		disable: true,
+	},
+});
