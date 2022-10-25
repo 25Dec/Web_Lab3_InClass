@@ -26,3 +26,9 @@ Exercise 2.2 ở branch exercise2-2
 Exercise 2.3 ở branch exercise2-3
 
 Exercise 3 ở branch exercise3
+
+Exercise 4.1 ở branch exercise4-1
+
+Exercise 4.2 ở branch exercise4-2
+
+Exercise 4.3 ở branch exercise4-3
