@@ -25,4 +25,4 @@ Exercise 2.2 ở branch exercise2-2
 
 Exercise 2.3 ở branch exercise2-3
 
-Exercise 3 ở branch exercise03
+Exercise 3 ở branch exercise3
