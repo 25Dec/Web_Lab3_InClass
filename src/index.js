@@ -1,10 +1,17 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom/client";
-import "./index.css";
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-	<p>
-		Hello, <strong>JSX</strong>
-	</p>
+const element = (
+	<div
+		style={{
+			color: "green",
+			textAlign: "center",
+			fontSize: "15px",
+			border: "1px solid green",
+			backgroundColor: "#d0f0c0",
+		}}
+	>
+		Green is the prime color of the world
+	</div>
 );
+ReactDOM.createRoot(document.getElementById("root")).render(element);
