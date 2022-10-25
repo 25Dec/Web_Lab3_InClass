@@ -17,7 +17,7 @@ const element = (
 		{smartPeople.map((people, index) => {
 			return (
 				<li key={index}>
-					{people.name}-{people.age}-{people.IQ}{" "}
+					{people.name}-{people.age}-{people.IQ}
 				</li>
 			);
 		})}
